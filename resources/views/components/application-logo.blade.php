@@ -1,0 +1,1 @@
+<img src="images/hospital.png" alt="Hospital" width="80px" height="45px">
