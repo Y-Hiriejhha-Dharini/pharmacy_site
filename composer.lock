@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9dbffee063e57e2431839e556eb9387d",
+    "content-hash": "5af4ab058156b95a22652bc196f63547",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1508,6 +1508,50 @@
             "time": "2023-02-15T16:40:09+00:00"
         },
         {
+            "name": "laraveldaily/larastarters",
+            "version": "2.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LaravelDaily/Larastarters.git",
+                "reference": "d8d9feda435978453bb8414bcd83c6ddaa971f65"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LaravelDaily/Larastarters/zipball/d8d9feda435978453bb8414bcd83c6ddaa971f65",
+                "reference": "d8d9feda435978453bb8414bcd83c6ddaa971f65",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "LaravelDaily\\Larastarters\\LarastartersServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "LaravelDaily\\Larastarters\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Povilas Korop",
+                    "email": "povilas@laraveldaily.com"
+                }
+            ],
+            "description": "Laravel Starter Kits with extra functions",
+            "support": {
+                "issues": "https://github.com/LaravelDaily/Larastarters/issues",
+                "source": "https://github.com/LaravelDaily/Larastarters/tree/2.3.1"
+            },
+            "time": "2023-03-17T06:22:06+00:00"
+        },
+        {
             "name": "league/commonmark",
             "version": "2.3.9",
             "source": {
@@ -2778,16 +2822,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.11.12",
+            "version": "v0.11.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "52cb7c47d403c31c0adc9bf7710fc355f93c20f7"
+                "reference": "722317c9f5627e588788e340f29b923e58f92f54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/52cb7c47d403c31c0adc9bf7710fc355f93c20f7",
-                "reference": "52cb7c47d403c31c0adc9bf7710fc355f93c20f7",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/722317c9f5627e588788e340f29b923e58f92f54",
+                "reference": "722317c9f5627e588788e340f29b923e58f92f54",
                 "shasum": ""
             },
             "require": {
@@ -2848,9 +2892,9 @@
             ],
             "support": {
                 "issues": "https://github.com/bobthecow/psysh/issues",
-                "source": "https://github.com/bobthecow/psysh/tree/v0.11.12"
+                "source": "https://github.com/bobthecow/psysh/tree/v0.11.13"
             },
-            "time": "2023-01-29T21:24:40+00:00"
+            "time": "2023-03-21T14:22:44+00:00"
         },
         {
             "name": "ralouphie/getallheaders",

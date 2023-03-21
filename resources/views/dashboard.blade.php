@@ -4,6 +4,6 @@
             {{ __('Upload Prescription') }}
         </h2>
     </x-slot> --}}
-    <x-login/>
+    <x-upload/>
    
 </x-app-layout>

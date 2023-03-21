@@ -4,6 +4,7 @@ use App\Http\Controllers\ProfileController;
 use App\Mail\UserMail;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ImageUploadController;
 
 /*
 |--------------------------------------------------------------------------
@@ -37,3 +38,5 @@ Route::get('emails', function(){
     Mail::to('369dharini@gmail.com')->send( new UserMail());
     return new UserMail;
 });
+
+Route::post('image_upload',[ImageUploadController::class,'image_upload'])->name('image_upload');
